@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -11,15 +13,19 @@ text-decoration: none;
 
 .header-logo {
 font-family: "Raleway", sans-serif;
+line-height: 1.17
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5
+   
 }
-.header-logo-color {color: #4d5ae5;
+.header-logo-color {color: #2e2f42;
 }
+
+
 .header-menu-item {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -28,14 +34,23 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
-.navigation-address {
+.header-menu-item-wan {
+    color: #2e2f42;
+     color: #404bbf;
+    color: #404bbf;
+}
+.address-link {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.address-link .link:hower {
+        color: #404bbf;}
+.lsnk:focus { color: #404bbf
+    }
 
 .main-section-wan {
     width: 1440px;
@@ -62,6 +77,12 @@ font-weight: 700;
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+}
+.main-button .link:hower {
+    background-color: #404BBF;
+}
+.main-button .link:focus {
+background-color: #404BBF;
 }
 .main-title-two {
     font-weight: 700;
